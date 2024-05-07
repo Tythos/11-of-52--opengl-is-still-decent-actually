@@ -1,0 +1,7 @@
+[submodule "glew-cmake"]
+	path = glew-cmake
+	url = https://github.com/Perlmint/glew-cmake
+[submodule "SDL"]
+	path = SDL
+	url = https://github.com/libsdl-org/SDL
+	branch = SDL2
