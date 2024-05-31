@@ -22,11 +22,11 @@ Begin with a blank C++ project. We'll create the following files as placeholders
 
 After initializing our git repository, we'll also want to add some dependencies. We'll use git submodules to do this, and in most cases these will need to come from specific branches. So, run `git submodule add` for the following:
 
-* https://github.com/libsdl-org/SDL.git (use branch `SDL2`)
+* https://github.com/libsdl-org/SDL (use branch `SDL2`)
 
-* https://github.com/libsdl-org/SDL_image.git (use branch `SDL2`)
+* https://github.com/libsdl-org/SDL_image (use branch `SDL2`)
 
-* https://github.com/Perlmint/glew-cmake.git0
+* https://github.com/Perlmint/glew-cmake
 
 You'll notice we're also adding SDL Image here, which is a fantastic extension to SDL that gives you out-of-the-box support for loading surfaces from a wide variety of image formats. We're also using a specific fork of GLEW that supports inclusion via CMake, to automate the dependency inclusion within our CMake project definition. Once those dependencies are cloned and submodules initialized (recursively!), we're ready to start populating our files.
 
